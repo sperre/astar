@@ -18,7 +18,8 @@ Example
 		// Returns a list of nodes from start to stop avoiding all, obstacles if possible
 		startx, starty :=  0,  0
 		stopx, stopy   := 99, 99
-		shortest_path := astar.Astar(map_data, startx, starty, stopx, stopy)
+		dir8 := false // Use 4 directions, not 8
+		shortest_path := astar.Astar(map_data, startx, starty, stopx, stopy, dir8)
 	}
 
 Origin
