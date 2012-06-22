@@ -27,3 +27,6 @@ Origin
 
 This library was developed for Eurobot-NTNU 2012,
 based on code from: https://github.com/humanfromearth/gopathfinding
+
+Compared to the original library, our version was benchmarked to run
+approximately 27x faster.
